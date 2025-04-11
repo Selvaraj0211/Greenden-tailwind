@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greendan</title>
+    <!--Tailwind CSS cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!--Responsive navbar-->
+    <nav class=" bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-30">
+        <h1 class="text-2xl">Greendan</h1>
+        <ul class="flex gap-3 text-gray-700 md:hidden" h>
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="Product.html">Products</a>
+            </li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-700 hidden md:flex" h>
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="Product.html">Products</a>
+            </li>
+            <li><a class="hover:underline hover:text-black" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Product header-->
+    <section class="text-center p-8">
+        <h1 class="font-bold text-3xl">Our Products</h1>
+        <input class="border border-gray-400 rounded p-2 m-4" style="width: 80%;" type="text"
+            placeholder="Search for a Product...">
+    </section>
+    <!--Product header image-->
+    <section>
+        <div class="grid grid-cols-2 mt-5 md:grid-cols-4">
+            <div class="text-center mb-5">
+                <img src="./image/best5.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Red Rose Plant</P>
+                <P>$200</P>
+            </div>
+            <div class="text-center">
+                <img src="./image/best6.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Yellow Rose Plant</P>
+                <P>$210</P>
+            </div>
+            <div class="text-center">
+                <img src="./image/best3.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Snake Plant</P>
+                <P>$210</P>
+            </div>
+            <div class="text-center">
+                <img src="./image/best2.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Weeping Fig Plant</P>
+                <P>$180</P>
+            </div>
+            <div class="text-center mb-5">
+                <img src="./image/best7.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Pink Rose Plant</P>
+                <P>$220</P>
+            </div>
+            <div class="text-center">
+                <img src="./image/best8.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Lily Plant</P>
+                <P>$250</P>
+            </div>
+            <div class="text-center">
+                <img src="./image/best1.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Dalmatian Bellflower Plant</P>
+                <P>$200</P>
+            </div>
+            <div class="text-center">
+                <img src="./image/best4.jpg" class="inline hover:shadow-2xl transform hover:-translate-y-3"
+                    alt="product">
+                <P>Marble Queen Pothos Plant</P>
+                <P>$250</P>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <section class="bg-green-100 p-8">
+        <h1 class="font-bold text-4xl">Greendan</h1>
+        <p>perferendis sit laudantium soluta earum quae. Sunt unde voluptate aliquam optio asperiores quis fugiat cumque omnis. Sint, a harum. Omnis, in.</p>
+    <p>&copy; 2025 Greendav.com</p>
+    </section>
+
+</body>
